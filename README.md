@@ -1,6 +1,6 @@
 # 🔢 Password Strength Analyser
-![Last Commit](https://img.shields.io/github/last-commit/reory/password-strength-sim?cacheSeconds=60)
-![Repo Size](https://img.shields.io/github/repo-size/reory/password-strength-sim?cacheSeconds=60)
+![Last Commit](https://img.shields.io/github/last-commit/reory/password-strength-analyser?cacheSeconds=60)
+![Repo Size](https://img.shields.io/github/repo-size/reory/password-strength-analyser?cacheSeconds=60)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -8,6 +8,20 @@
 ![CustomTkinter](https://img.shields.io/badge/CustomTkinter-1E90FF?style=for-the-badge)
 
 A lightweight, modern, and password analysis tool built with Python, NumPy, and CustomTkinter. This project demonstrates how to use vectorised math to score password security and log audit data in real-time.
+
+---
+
+## 📑 Table of Contents
+
+- [Why This Project Exists](#-why-this-project-exists)
+- [Key Features](#-key-features)
+- [Screenshots](#️-screenshots)
+- [Installation & Setup](#️-installation--setup)
+- [Project Structure](#-project-structure)
+- [Usage](#-usage)
+- [How It Works (The NumPy Logic)](#-how-it-works-the-numpy-logic)
+- [Tech Stack](#-tech-stack)
+- [Roadmap Features](#️-roadmap)
 
 ---
 
@@ -34,7 +48,7 @@ The tool demonstrates password scoring techniques, basic security auditing conce
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
 ![App Screenshot](screenshots/weak.png)
 ![App Screenshot](screenshots/moderate.png)
@@ -42,12 +56,12 @@ The tool demonstrates password scoring techniques, basic security auditing conce
 
 ---
 
-## 🛠️ Installation
+## 🛠️ Installation & Setup
 
 ### Clone the repository:
 
 ```Bash
-git clone https://github.com/reory/password-strength-sim.git
+git clone https://github.com/reory/password-strength-analyser.git
 cd password-strength-sim
 ```
 ### Create a virtual environment
