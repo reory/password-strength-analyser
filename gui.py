@@ -1,7 +1,8 @@
+import logging
+import re
+
 import customtkinter as ctk
 import numpy as np
-import re
-import logging
 
 # Logging configuration
 logging.basicConfig(
@@ -10,6 +11,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     datefmt="%Y-%m-%d %H:%M:%S"
 )
+logger = logging.getLogger(__name__)
 
 def analyse_single_password(password: str):
     """Logic for a single password input"""
@@ -94,7 +96,7 @@ class PasswordApp(ctk.CTk):
             self.result_label.configure(text_color="#F1C40F")
 
         # The logging action
-        logging.info(
+        logger.info(
             f"Logging Audit Performed | Score: {score} | Strength: {strength}")
         print(f"Log updated for score {score}")
 
